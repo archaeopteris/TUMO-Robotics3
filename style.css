@@ -1,0 +1,104 @@
+.TextBoxes
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+/*	border: 8px solid red; */
+	display: inline-block;
+	font-size:17px;
+	font-weight: bold;
+	/*width: 430px;*/
+	/*height: 270px;*/
+	text-align: center;
+}
+
+.box
+{
+	padding: 15px;
+	font-size: 17px;
+	min-width: 400px;
+	min-height: 200px;
+	max-width: 400px;
+	max-height: 200px;
+	border-radius: 10px
+}
+
+/* Coordinates of Vertical Section, which includes */
+/* Description and Team Members. */
+.Vert_Section
+{
+	position: relative;
+	left: 835px;
+	top: 100px;
+}
+
+.Description
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.TeamMembers
+{
+	position: absolute;
+	left: 0px;
+	top: 840px;
+}
+
+/* Coordinates of Horizontal Section 1, which includes */
+/* Use Cases and Communication. */
+.Horiz_Section_1
+{
+	position: relative;
+	left: 100px;
+	top: 200px;
+}
+
+.UseCases
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.Communication
+{
+	position: absolute;
+	left: 1470px;
+	top: 0px;
+}
+
+/* Coordinates of Horizontal Section 2, which includes */
+/* Sensors and Difficulties. */
+.Horiz_Section_2
+{
+	position: relative;
+	left: 100px;
+	top: 600px;
+}
+
+.Sensors
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.Difficulties
+{
+	position: absolute;
+	left: 1470px;
+	top: 0px;
+}
+
+.RobotImage
+{
+	position: relative;
+	left: 655px;
+	top: -785px;
+}
+
+::placeholder
+{
+	color: grey;
+}
