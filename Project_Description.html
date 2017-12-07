@@ -1,98 +1,48 @@
 <!DOCTYPE html>
-<html>
-<body>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="Description" id="Description"></h2>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="UseCase" id="UseCase"></h2>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="Communication" id="Communication"></h2>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="TeamMembers" id="TeamMembers"></h2>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="Difficulties" id="Difficulties"></h2>
-	<h2><input type="text" name="FirstName" font color="red" placeholder="Sensors" id="Sensors"></h2>
+<head>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<img src="img_template.JPG" alt="Robot" height="480" width="640" id=RobotImage> 
+</head>
+<body>
+ 	<div class="TextBoxes">
+	 	<div class="Horiz_Section_Global">
+	 		<div class="Horiz_Section_1">
+		 		<div class="UseCases">
+					<label> Ռոբոտի<br>Կիրառությունը <br><textarea class="box" type="text" name="UseCases" placeholder="Ի՞նչ կիրառություն կարող է ունենալ ռոբոտը իրական կյանքում։" id="Box_UseCases"></textarea></label>
+				</div>
+
+				<div class="Communication">
+					<label> Հաղորդակցման<br>Եղանակը <br><textarea class="box" type="text" name="Communication" placeholder="Communication" id="Box_Communication"></textarea></label>
+				</div>
+			</div>
+
+			<div class="Horiz_Section_2">
+				<div class="Sensors">
+					<label> Օգտագործված<br>Սենսորներ <br><textarea class="box" type="text" name="Sensors" placeholder="Sensors" id="Box_Sensors"></textarea></label>
+				</div>
+
+				<div class="Difficulties">
+					<label> Նախագծի<br>Դժվարությունները <br><textarea class="box" type="text" name="Difficulties" placeholder="Ի՞նչ դժվարություններ եք հանդիպել ռոբոտը կառուցելուց և ինչ լուծումներ եք դրանց տվել։" id="Box_Difficulties"></textarea></label>
+				</div>
+			</div>
+		</div>
+
+		<div class="Vert_Section">
+			<div class="Description">
+				<label> Ռոբոտի Նկարագիրը <br><textarea class="box" type="text" name="Description" placeholder="Ռոբոտի" id="Box_Description"></textarea></label>
+			</div>
+
+			<div class="TeamMembers">
+				<label> Թիմի Անդամները <br><textarea class="box" type="text" name="TeamMembers" placeholder="TeamMembers" id="Box_TeamMembers"></textarea></label>
+			</div>
+		</div>
+	</div>
+
+	<div class="RobotImage">
+		<!-- <img src="img.JPG" alt="Robot" height="480" width="640" id="Box_RobotImage"> -->
+	</div>
+
 
 </body>
 </html>
-
-<body>
-	<style>
-		h2
-		{
-			margin-bottom: 20px;
-			margin-top: 20px;
-		}
-
-		#Description
-		{
-			position: relative;
-			left: 900px;
-			top: 90px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#UseCase
-		{
-			position: relative;
-			left: 400px;
-			top: 100px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#Communication
-		{
-			position: relative;
-			left: 1400px;
-			top: -80px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#TeamMembers
-		{
-			position: relative;
-			left: 400px;
-			top: 30px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#Difficulties
-		{
-			position: relative;
-			left: 1400px;
-			top: -150px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#Sensors
-		{
-			position: relative;
-			left: 900px;
-			top: -100px;
-			font-size:12px;
-			width: 150px;
-			height: 150px;
-		}
-
-		#RobotImage
-		{
-			position: relative;
-			left: 655px;
-			top: -785px;
-		}
-
-		::placeholder
-		{
-			color: grey;
-		}
-
-
-	</style>
-</body>
