@@ -4,11 +4,15 @@
 	margin-top: 20px;
 /*	border: 8px solid red; */
 	display: inline-block;
-	font-size:17px;
+	font-size:20px;
 	font-weight: bold;
 	/*width: 430px;*/
 	/*height: 270px;*/
 	text-align: center;
+
+	position: relative;
+	left: 0px;
+	top: -100px;
 }
 
 .box
@@ -22,13 +26,68 @@
 	border-radius: 10px
 }
 
+.Header
+{
+	padding: 100px;
+	position: relative;
+	left: 0px;
+	top: 0px;
+}
+
+h1
+{
+	position: absolute;
+	left: 930px;
+	top: -15px;
+	font-size:60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2
+{
+	position: absolute;
+	left: 985px;
+	top: 80px;
+	font-size:40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.DateSelector
+{
+	position: relative;
+	left: 1700px;
+	top: 70px;
+	font-size:25px;
+	color: #669999;
+}
+
+.datebox
+{
+	font-size: 20px;
+	min-width: 300px;
+	min-height: 40px;
+	max-width: 300px;
+	max-height: 40px;
+	border-radius: 10px
+}
+
+
+.Horiz_Section_Global
+{
+	position: relative;
+	left: 200px;
+	top: 0px;
+}
+
 /* Coordinates of Vertical Section, which includes */
 /* Description and Team Members. */
 .Vert_Section
 {
 	position: relative;
 	left: 835px;
-	top: 100px;
+	top: 0px;
 }
 
 .Description
@@ -36,6 +95,7 @@
 	position: absolute;
 	left: 0px;
 	top: 0px;
+	color: #b30000;
 }
 
 .TeamMembers
@@ -43,6 +103,7 @@
 	position: absolute;
 	left: 0px;
 	top: 840px;
+	color: #0052cc;
 }
 
 /* Coordinates of Horizontal Section 1, which includes */
@@ -51,21 +112,23 @@
 {
 	position: relative;
 	left: 100px;
-	top: 200px;
+	top: 150px;
 }
 
 .UseCases
 {
 	position: absolute;
-	left: 0px;
+	left: 100px;
 	top: 0px;
+	color: #00b33c;
 }
 
 .Communication
 {
 	position: absolute;
-	left: 1470px;
+	left: 1368px;
 	top: 0px;
+	color: #e68a00;
 }
 
 /* Coordinates of Horizontal Section 2, which includes */
@@ -74,7 +137,7 @@
 {
 	position: relative;
 	left: 100px;
-	top: 600px;
+	top: 650px;
 }
 
 .Sensors
@@ -82,6 +145,7 @@
 	position: absolute;
 	left: 0px;
 	top: 0px;
+	color: #990073;
 }
 
 .Difficulties
@@ -89,16 +153,89 @@
 	position: absolute;
 	left: 1470px;
 	top: 0px;
+	color: #808000;
 }
 
 .RobotImage
 {
 	position: relative;
-	left: 655px;
-	top: -785px;
+	left: 932px;
+	top: 180px;
+}
+
+.TumoLogo
+{
+	position: relative;
+	left: 350px;
+	top: -780px;
+}
+
+.Lines
+{
+	position: relative;
+	left: 0px;
+	top: -600px;
+	stroke:#669999;
+	stroke-width:2
+}
+
+.Line1
+{
+	position: relative;
+	left: 839px;
+	top: 100px;
+}
+
+.Line2
+{
+	position: relative;
+	left: 1238px;
+	top: -110px;
+}
+
+.Line3
+{
+	position: relative;
+	left: 1500px;
+	top: -500px;
+}
+
+.Line4
+{
+	position: relative;
+	left: 1570px;
+	top: -500px;
+}
+
+.Line5
+{
+	position: relative;
+	left: 1600px;
+	top: -350px;
+}
+
+.Line6
+{
+	position: relative;
+	left: 1268px;
+	top: -420px;
+}
+
+.Line7
+{
+	position: relative;
+	left: 750px;
+	top: -700px;
 }
 
 ::placeholder
 {
 	color: grey;
+}
+
+.main{
+	/*border: 10px red solid;*/
+	width: 2400px;
+	margin: auto;
+	zoom: 0.7;
 }
