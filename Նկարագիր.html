@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<style type="text/css">
+	/*Style settings of Header elements*/
+	.Header
+	{
+		position: relative;
+		left: 0px;
+		top: 0px;
+	}
+
+	.heading
+	{
+		padding: 100px;
+		position: relative;
+		left: 0px;
+		top: 0px;
+	}
+
+	/*#Box_TeamPhoto*/
+	.TeamImage
+	{
+		position: relative;
+		left: 1600px;
+		top: -50px;
+
+		width: 320px;
+		height: 240px;
+		background: url(https://goo.gl/X5uMcb) no-repeat scroll 0 0;
+	}
+
+	h1
+	{
+		position: absolute;
+		left: 930px;
+		top: -15px;
+		font-size:60px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	h2
+	{
+		position: absolute;
+		left: 985px;
+		top: 80px;
+		font-size:40px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.TumoLogo
+	{
+		position: relative;
+		left: 450px;
+		top: -350px;
+	}
+
+
+	/*Style settings of main elements*/
+	.main
+	{
+		/*border: 10px red solid;*/
+		width: 2400px;
+		height: 1430px;
+
+		margin: auto;
+		zoom: 0.67;
+	}
+
+	.DateSelector
+	{
+		position: relative;
+		left: 1700px;
+		top: -250px;
+		font-size:25px;
+		color: #669999;
+
+		width: 400px;
+		height: 100px;
+	}
+
+	.datebox
+	{
+		font-size: 20px;
+		min-width: 300px;
+		min-height: 40px;
+		max-width: 300px;
+		max-height: 40px;
+		border-radius: 10px
+	}
+
+	.Lines
+	{
+		position: relative;
+		left: 0px;
+		top: -220px;
+		stroke: #669999;
+		stroke-width: 2
+
+		width: 1000px;
+		height: 700px;
+	}
+
+	.Line1
+	{
+		position: relative;
+		left: 839px;
+		top: 100px;
+	}
+
+	.Line2
+	{
+		position: relative;
+		left: 1238px;
+		top: -110px;
+	}
+
+	.Line3
+	{
+		position: relative;
+		left: 1500px;
+		top: -500px;
+	}
+
+	.Line4
+	{
+		position: relative;
+		left: 1570px;
+		top: -500px;
+	}
+
+	.Line5
+	{
+		position: relative;
+		left: 1600px;
+		top: -350px;
+	}
+
+	.Line6
+	{
+		position: relative;
+		left: 1268px;
+		top: -420px;
+	}
+
+	.Line7
+	{
+		position: relative;
+		left: 750px;
+		top: -700px;
+	}
+
+	.TextBoxes
+	{
+		margin-bottom: 20px;
+		margin-top: 20px;
+	/*	border: 8px solid red; */
+		display: inline-block;
+		font-size:20px;
+		font-weight: bold;
+		/*width: 430px;*/
+		/*height: 270px;*/
+		text-align: center;
+
+		position: relative;
+		left: 0px;
+		top: -1100px;
+	}
+
+	.box
+	{
+		padding: 15px;
+		font-size: 17px;
+		min-width: 400px;
+		min-height: 200px;
+		max-width: 400px;
+		max-height: 200px;
+		border-radius: 10px
+	}
+
+	.Horiz_Section_Global
+	{
+		position: relative;
+		left: 200px;
+		top: 0px;
+	}
+
+	/* Coordinates of Vertical Section, which includes */
+	/* Description and Team Members. */
+	.Vert_Section
+	{
+		position: relative;
+		left: 835px;
+		top: 0px;
+	}
+
+	.Description
+	{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		color: #b30000;
+	}
+
+	.TeamMembers
+	{
+		position: absolute;
+		left: 0px;
+		top: 840px;
+		color: #0052cc;
+	}
+
+	/* Coordinates of Horizontal Section 1, which includes */
+	/* Use Cases and Communication. */
+	.Horiz_Section_1
+	{
+		position: relative;
+		left: 100px;
+		top: 150px;
+	}
+
+	.UseCases
+	{
+		position: absolute;
+		left: 100px;
+		top: 0px;
+		color: #00b33c;
+	}
+
+	.Communication
+	{
+		position: absolute;
+		left: 1368px;
+		top: 0px;
+		color: #e68a00;
+	}
+
+	/* Coordinates of Horizontal Section 2, which includes */
+	/* Sensors and Difficulties. */
+	.Horiz_Section_2
+	{
+		position: relative;
+		left: 100px;
+		top: 650px;
+	}
+
+	.Sensors
+	{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		color: #990073;
+	}
+
+	.Difficulties
+	{
+		position: absolute;
+		left: 1470px;
+		top: 0px;
+		color: #808000;
+	}
+
+	.RobotImage
+	{
+		position: relative;
+		left: 932px;
+		top: -810px;
+
+		width: 640px;
+		height: 480px;
+		background: url(https://goo.gl/X5uMcb) no-repeat scroll 0 0;
+	}
+
+	::placeholder
+	{
+		color: grey;
+	}
+</style>
+
+
+<body>
+<div class="main">
+
+	<div class="Header">
+		<div class="heading">
+			<h1>Ռոբոտաշինություն III</h1>
+			<h2>Նախագծի Նկարագրություն</h2>
+
+			<div class="TeamImage">
+				<img src="team.JPG" alt="Թիմի անդամների նկարը" height="240" width="320" id="Box_TeamPhoto">
+			</div>
+		</div>
+
+		<div class="TumoLogo">
+			<img src="data:image/png;base64,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" alt="Tumologo.png">
+		</div>
+	</div>
+
+	<div class="DateSelector">
+		<form action="/action_page.php">
+			Մեր դասընթացը տեղի ունեցավ՝<br>
+		<input type="month" class="datebox"><br><br>
+	</div>
+
+	<div class="Lines">
+		<div class="Line1">
+			<svg height="210" width="500">
+	  			<line x1="0" y1="0" x2="80" y2="100"/>
+			</svg>
+		</div>
+
+		<div class="Line2">
+			<svg height="210" width="500">
+	  			<line x1="0" y1="0" x2="5" y2="35"/>
+			</svg>
+		</div>
+
+		<div class="Line3">
+			<svg height="210" width="500">
+	  			<line x1="190" y1="0" x2="0" y2="200"/>
+			</svg>
+		</div>
+
+		<div class="Line4">
+			<svg height="210" width="500">
+	  			<line x1="90" y1="50" x2="10" y2="100"/>
+			</svg>
+		</div>
+
+		<div class="Line5">
+			<svg height="210" width="500">
+	  			<line x1="0" y1="0" x2="150" y2="150"/>
+			</svg>
+		</div>
+
+		<div class="Line6">
+			<svg height="210" width="500">
+	  			<line x1="5" y1="0" x2="0" y2="40"/>
+			</svg>
+		</div>
+
+		<div class="Line7">
+			<svg height="210" width="500">
+	  			<line x1="170" y1="0" x2="0" y2="100"/>
+			</svg>
+		</div>
+
+	</div>
+
+ 	<div class="TextBoxes">
+	 	<div class="Horiz_Section_Global">
+	 		<div class="Horiz_Section_1">
+		 		<div class="UseCases">
+					<label> Նախագծի<br>Կիրառությունը <br><textarea class="box" type="text" name="UseCases" placeholder="Ի՞նչ կիրառություն կարող են ունենալ ռոբոտները իրական կյանքում։" id="Box_UseCases"></textarea></label>
+				</div>
+
+				<div class="Communication">
+					<label> Հաղորդակցման<br>Եղանակը <br><textarea class="box" type="text" name="Communication" placeholder="Ինչպես են ռոբոտները իրար հետ համագործակցում" id="Box_Communication"></textarea></label>
+				</div>
+			</div>
+
+			<div class="Horiz_Section_2">
+				<div class="Sensors">
+					<label> Օգտագործված<br>Սարքավորումներ <br><textarea class="box" type="text" name="Sensors" placeholder="Ի՞նչ սենսորներ ու շարժիչներ եք օգտագործել, և ինչի համար է դրանցից ամեն մեկը" id="Box_Sensors"></textarea></label>
+				</div>
+
+				<div class="Difficulties">
+					<label> Մեկնաբանություններ <br><textarea class="box" type="text" name="Difficulties" placeholder="Ի՞նչ խնդիրների եք հանդիպել ռոբոտը կառուցելիս և ինչ լուծումներ եք դրանց տվել։" id="Box_Difficulties"></textarea></label>
+				</div>
+			</div>
+
+
+			<div class="Vert_Section">
+				<div class="Description">
+					<label> Նախագծի Նկարագիրը <br><textarea class="box" type="text" name="Description" placeholder="Նախագծում ընդգրկված ռոբոտների նկարագրերը։" id="Box_Description"></textarea></label>
+				</div>
+
+				<div class="TeamMembers">
+					<label> Թիմի Անդամները <br><textarea class="box" type="text" name="TeamMembers" placeholder="Թիմի անդամների անունները" id="Box_TeamMembers"></textarea></label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="RobotImage">
+		<img src="robot.JPG" alt="Ձեր ռոբոտի նկարը" height="480" width="640" id="Box_RobotImage">
+	</div>
+	
+</div>
+</body>
+</html>
