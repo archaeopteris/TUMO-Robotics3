@@ -65,7 +65,10 @@ h2
 
 /*Style settings of main elements*/
 .main{
-	/*border: 10px red solid;*/
+	position: relative;
+	left: -25px;
+	top: 0px;
+
 	width: 1680px;
 	height: 1001px;
 
@@ -76,10 +79,11 @@ h2
 .DateSelector
 {
 	position: relative;
-	left: 1000px;
-	top: 0px;
+	left: 460px;
+	top: -55px;
 	font-size:17px;
 	color: #669999;
+	margin: auto;
 
 	width: 280px;
 	height: 70px;
@@ -98,7 +102,7 @@ h2
 .Lines
 {
 	position: relative;
-	left: 0px;
+	left: -375px;
 	top: -220px;
 	stroke: #669999;
 	stroke-width: 2
@@ -270,8 +274,10 @@ h2
 .RobotImage
 {
 	position: relative;
-	left: 650px;
+	/*left: 650px;*/
+	left: 35px;
 	top: -515px;
+	margin: auto;
 
 	width: 448px;
 	height: 336px;
