@@ -103,7 +103,7 @@ h2
 {
 	position: relative;
 	left: -375px;
-	top: -220px;
+	top: 0px;
 	stroke: #669999;
 	stroke-width: 2
 
@@ -114,50 +114,50 @@ h2
 .Line1
 {
 	position: relative;
-	left: 839px;
-	top: 100px;
+	left: 982px;
+	top: 50px;
 }
 
 .Line2
 {
 	position: relative;
 	left: 1238px;
-	top: -110px;
+	top: -230px;
 }
 
 .Line3
 {
 	position: relative;
-	left: 1500px;
-	top: -500px;
+	left: 1430px;
+	top: -620px;
 }
 
 .Line4
 {
 	position: relative;
-	left: 1570px;
-	top: -500px;
+	left: 1470px;
+	top: -640px;
 }
 
 .Line5
 {
 	position: relative;
-	left: 1600px;
-	top: -350px;
+	left: 1486px;
+	top: -600px;
 }
 
 .Line6
 {
 	position: relative;
 	left: 1268px;
-	top: -420px;
+	top: -708px;
 }
 
 .Line7
 {
 	position: relative;
-	left: 750px;
-	top: -700px;
+	left: 917px;
+	top: -1000px;
 }
 
 .TextBoxes
