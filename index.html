@@ -26,7 +26,7 @@
 	<div class="DateSelector">
 		<form action="/action_page.php">
 			Մեր դասընթացը տեղի ունեցավ՝<br>
-		<input type="month" class="datebox"><br><br>
+		<input type="month" class="datebox" id="Workshop_date"><br><br>
 	</div>
 
 	<div class="Lines">
@@ -112,7 +112,34 @@
 	<div class="RobotImage">
 		<img src="robot.JPG" alt="Ձեր ռոբոտի նկարը" height="336" width="448" id="Box_RobotImage">
 	</div>
+
+	<div class="SaveButton"> 
+		<button onclick="myFunction()">Save</button>
+	</div>
 	
 </div>
+
+
+<script>
+
+	document.getElementById('Box_Description').innerHTML = "text 1";
+
+/*	document.getElementById('Box_Communication').innerHTML = "text 2";
+
+	document.getElementById('Box_Comments').innerHTML = "text 3";
+
+	document.getElementById('Box_TeamMembers').innerHTML = "text 4";
+
+	document.getElementById('Box_Sensors').innerHTML = "text 5";
+
+	document.getElementById('Box_UseCases').innerHTML = "text 6";
+*/
+
+	function myFunction()
+	{
+    	window.alert(document.getElementById('Box_Description').innerHTML);
+	}
+</script>
+
 </body>
 </html>
