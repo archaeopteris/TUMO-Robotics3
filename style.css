@@ -64,7 +64,8 @@ h2
 
 
 /*Style settings of main elements*/
-.main{
+.main
+{
 	position: relative;
 	left: -25px;
 	top: -20px;
@@ -73,15 +74,14 @@ h2
 	height: 1001px;
 
 	margin: auto;
-/*	zoom: 0.65;
-*/}
+}
 
 .DateSelector
 {
 	position: relative;
 	left: 460px;
 	top: -55px;
-	font-size:17px;
+	font-size: 17px;
 	color: #669999;
 	margin: auto;
 
@@ -96,7 +96,7 @@ h2
 	min-height: 28px;
 	max-width: 210px;
 	max-height: 28px;
-	border-radius: 7px
+	border-radius: 7px;
 }
 
 .Lines
@@ -105,7 +105,7 @@ h2
 	left: -375px;
 	top: 0px;
 	stroke: #669999;
-	stroke-width: 2
+	stroke-width: 2;
 
 	width: 700px;
 	height: 490px;
@@ -188,7 +188,7 @@ h2
 	min-height: 140px;
 	max-width: 280px;
 	max-height: 140px;
-	border-radius: 7px
+	border-radius: 7px;
 }
 
 .Horiz_Section_Global
@@ -285,6 +285,14 @@ h2
 	width: 448px;
 	height: 336px;
 	background: url(https://goo.gl/X5uMcb) no-repeat scroll 0 0;
+}
+
+.SaveButton
+{
+	position: relative;
+	/*left: 650px;*/
+	left: 1300px;
+	top: -350px;
 }
 
 ::placeholder
